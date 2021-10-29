@@ -19,13 +19,13 @@ table{
 }
 
 td:hover{
-    background-color: yellowgreen;
-    color: blueviolet;
+    background-color: black;
+    color: greenyellow;
 }
 
 tr, th{
-    background-color: brown;
-    color: cornsilk;
+    background-color: darkorange;
+    color: purple;
 }
 
 tr, td{
