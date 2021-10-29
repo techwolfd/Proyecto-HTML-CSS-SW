@@ -1,0 +1,1 @@
+alert("Hi, W, Alert of box")
