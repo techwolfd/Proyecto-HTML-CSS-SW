@@ -5,4 +5,40 @@ p {color:snow;
     text-align: center;
 }
     
+/*escribir comentarios*/
+
+h1:after {
+  content: ' \00A2';
+      color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+table{
+    border: 1px solid silver;
+}
+
+td:hover{
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+tr, th{
+    background-color: brown;
+    color: cornsilk;
+}
+
+tr, td{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+
+ul{
+    list-style-type: upper-roman;
+
+}
+
+ol{
+    list-style-type: square;
+}
 
