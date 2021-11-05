@@ -11,3 +11,5 @@ en estos archivos se muestran los trabajos realizados durante el bootcamp el cua
       <li>filas</li>
       <li>Bootstrap</li>
     </ol>
+<h3>BOOTSTRAP</h3>
+en la carpeta bootstrap se muestra un ejemplo de una pagina de cine horarios y descripcion
