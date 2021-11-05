@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: rgb(211, 179, 37);
+    margin-left: 100px;
+    text-shadow: 1px , 5px , 4px rgba(0, 0, 0, 0.6);
+}
+visibility:hidden;
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+    
+}
+
+/*seleccionar todos los cuadros en el array*/
+
+.container .squares:nth-child(-n+4) {
+    background-image: url("../iconos/icons.png");
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}
+/*seleccionar todos los parrafos cuadrados en el array*/
+.squares:nth-child(-n+4) p{
+    font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+    font-size: .5cm;
+    font-weight: 500;
+    text-align: right;
+    margin: 10;
+    text-shadow: 5px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/*seleccionar todos los parrafos cuadrados en el array*/
+
+.squares:nth-child(1){
+    background: #93c0f3;
+}
+
+.squares:nth-child(2) {
+    background: #bfeb6d;
+}
+
+.squares:nth-child(3) {
+    background: #edaaf3;
+}
+
+.squares:nth-child(4) {
+    background: #f88484;
+}
+
+/*efectos hover*/
+
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("../iconos/icons2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, 0.2, 0.3, 3.2);
+}
+
+.squares:nth-child(1):hover {
+    background: #79d5ff;
+}
+
+.squares:nth-child(2):hover {
+    background: #ccaaf3;
+}
+
+.squares:nth-child(3):hover {
+    background: #c76ea8;
+}
+
+.squares:nth-child(4):hover {
+    background: #bdeb69;
+}
+
+/*afecto de animacion*/
+
+@keyframes race {
+    0%, 100%{
+        transform: translateY(0px);
+        background-image: url("../iconos/icons2.png");
+    }
+    50% {
+        transform: translateY(330px);
+    }
+}

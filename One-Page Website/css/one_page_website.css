@@ -1,0 +1,8 @@
+ input {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+    margin: 20px;
+    border: 2px;
+    border-radius: 12px;
+}
