@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"  type="text/css" href="chaleng.css">
+
+ </head>
+        <body>
+            
+ 
+<h1 style="font-size:5vw;">Responsive Text</h1>
+
+<p style="font-size:1vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:2vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p style="font-size: large;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+
+<!--validacion form-->
+<h2>JavaScript Validation</h2>
+
+<p>Please input a number between 1 and 10:</p>
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br><br>
+    
+    <label for="numb">number: of 10 digits</label><br>
+    <input id="numb" name="numb" ><br>
+    <button type="button" onclick="myFunction()">Submit</button>
+    
+    <p id="demo"></p>
+</form>
+<div></div>
+<script>
+function myFunction() {
+  // Get the value of the input field with id="numb"
+  let x = document.getElementById("numb").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (isNaN(x) || x < 11111111111 || x > 999999999) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+
+    document.body.classList.add('fade-out');
+    window.addEventListener('DOMContentLoaded', () => {
+  document.body.classList.remove('fade-out');
+});
+  </script>
+        </body>
+</html>
